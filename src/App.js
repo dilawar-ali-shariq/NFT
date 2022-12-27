@@ -48,7 +48,7 @@ function App() {
               <h1 className="tablet:text-[77px] mobile:text-[57px] text-[42px] leading-[72px] mb-5">
                 Who <span className="font-bold">Are We</span>
               </h1>
-              <p className="tablet:text-[17px] mobile:text-[15px] text-[13px]">
+              <p className="tablet:text-[17px] mobile:text-[15px] text-[13px] font-medium">
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
                 and scrambled it to make a type specimen book. It has survived
@@ -214,7 +214,7 @@ function App() {
                     <div className="flex items-center">
                       <img src="./Assets/check.png" alt=""/>
                     </div>
-                    <h3 className="tablet:text-[25px] mobile:text-[22.5px] text-[20px] ml-4 font-semibold">
+                    <h3 className="tablet:text-[25px] mobile:text-[22.5px] text-[20px] ml-4 font-bold">
                       Agility
                     </h3>
                   </div>
@@ -228,7 +228,7 @@ function App() {
                     <div className="flex items-center">
                       <img src="./Assets/check.png" alt=""/>
                     </div>
-                    <h3 className="tablet:text-[25px] mobile:text-[22.5px] text-[20px] ml-4 font-semibold">
+                    <h3 className="tablet:text-[25px] mobile:text-[22.5px] text-[20px] ml-4 font-bold">
                       Integrity
                     </h3>
                   </div>
@@ -242,7 +242,7 @@ function App() {
                     <div className="flex items-center">
                       <img src="./Assets/check.png" alt=""/>
                     </div>
-                    <h3 className="tablet:text-[25px] mobile:text-[22.5px] text-[20px] ml-4 font-semibold">
+                    <h3 className="tablet:text-[25px] mobile:text-[22.5px] text-[20px] ml-4 font-bold">
                       Simplicity
                     </h3>
                   </div>
@@ -256,7 +256,7 @@ function App() {
                     <div className="flex items-center">
                       <img src="./Assets/check.png" alt=""/>
                     </div>
-                    <h3 className="tablet:text-[25px] mobile:text-[22.5px] text-[20px] ml-4 font-semibold">
+                    <h3 className="tablet:text-[25px] mobile:text-[22.5px] text-[20px] ml-4 font-bold">
                       Innovation
                     </h3>
                   </div>
@@ -270,7 +270,7 @@ function App() {
                     <div className="flex items-center">
                       <img src="./Assets/check.png" alt=""/>
                     </div>
-                    <h3 className="tablet:text-[25px] mobile:text-[22.5px] text-[20px] ml-4 font-semibold">
+                    <h3 className="tablet:text-[25px] mobile:text-[22.5px] text-[20px] ml-4 font-bold">
                       Kindness
                     </h3>
                   </div>
@@ -289,7 +289,7 @@ function App() {
         >
           <div className="w-[600px] mx-5 z-10">
             <h1 className="tablet:text-[77px] mobile:text-[57px] text-[42px] text-[white] text-center mt-14 mb-14 font-bold">
-              Contact Us
+              CONTACT US
             </h1>
             <div className="flex justify-center gap-5 flex-wrap w-full">
               <input
@@ -309,6 +309,7 @@ function App() {
               />
               <input
                 type="text"
+                placeholder="Phone"
                 className="tablet:w-[290px] w-full focus:outline-none bg-[#EEEEFD] p-3 rounded-lg"
               />
               <textarea
@@ -316,7 +317,7 @@ function App() {
                 placeholder="Message"
                 className="w-full h-[140px] focus:outline-none bg-[#EEEEFD] p-3 rounded-lg"
               />
-              <button className="text-[white] bg-[#1A1A1A] tablet:text-[17px] mobile:text-[15px] text-[13px] px-10 py-3 rounded-md hover:opacity-80 cursor-pointer duration-300">
+              <button className="text-[white] bg-[#1A1A1A] font-semibold tablet:text-[17px] mobile:text-[15px] text-[13px] px-10 py-3 rounded-md hover:opacity-80 cursor-pointer duration-300">
                 SEND MESSAGE
               </button>
             </div>
